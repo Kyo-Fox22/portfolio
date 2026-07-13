@@ -21,9 +21,18 @@ A simple A/B Test analysis where I utilize the "Marketing A/B Testing Dataset" b
 ## Apex Steam Reviews Analysis
 
 ### Project Description
-
+This project was my very first project and it started out as a simple investigation of one of my favorite games that I played when I was young so it may not be as professional as others but nonetheless it is something that I worked on. It worked on analyzing steam reviews of Apex Legends through various methods including topic extraction and word clouds. Being one of the games that I really enjoyed, I wanted to pinpoint the key changes that majority of the playerbase of Apex Legends really didn't like: the patch changes in which the game plummetted in both sales and player activity. To accomplish this, I gathered the reviews using a web scraper that is separated on a different notebook under the same directory. After gathering the data, I utilized word clouds and topic extraction to see whether I can gain some insight on the words used in all the reviews. I also attempted to filter the reviews by various factors including but not limited to hours on account, community votes, or helpful votes made by other users. I tried finding whether there was a common characteristic shared by those who recommended the game against those that did not. My analysis ended with majority of the playerbase pointing to an intense dislike towards matchmaking, server issues, and microtransactions. The constant push of the developers to these three fields seemingly caused the playerbase to drop the game, venting their frustration on the reviews at how the developers hardly cared for the state of the game and only for making money off of it.
 
 ### Images
+!['Word Cloud of Steam Reviews'](images/steamreviewanalysis/wordcloud_10wordlength.jpg)
+
+!['Violin Plot of Recommendation based on Hours'](images/steamreviewanalysis/hoursvsrecommended_violinplot.jpg)
+
+!['Helpful Reviews vs Hours on Account Scatter Plot in Logarithmic Scale'](images/steamreviewanalysis/helpfulvshours_logscatplot.jpg)
+
+!['Product vs Hours Scatter Plot'](images/steamreviewanalysis/productsvshours_scatplot.jpg)
+
+!['Bad Reviews Topic Pie Plot'](images/steamreviewanalysis/Pie_Plot_BadReviews_Topics.jpg)
 
 ---
 ## Philippine Social Media Fake News Detection
